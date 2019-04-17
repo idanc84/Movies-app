@@ -18,9 +18,9 @@ public class MoviesApplication extends Application {
                 .application(this)
                 .build();
 
-        if (!LeakCanary.isInAnalyzerProcess(this)) {
+        /*if (!LeakCanary.isInAnalyzerProcess(this)) {
             LeakCanary.install(this);
-        }
+        }*/
     }
 
     public RepositoryComponent getRepositoryComponent(){
